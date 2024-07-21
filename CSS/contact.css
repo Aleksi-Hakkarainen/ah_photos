@@ -1,0 +1,28 @@
+.text-container {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text {
+        text-align: center;
+        width: 50vh;
+        a {
+            text-decoration: none;
+            color: black;
+            transition: 0.2s;
+            p {
+                padding: 1%;
+                transition: 0.2s;
+            }
+        }
+        a:hover {
+            color: rgb(0, 0, 0);
+            p {
+                background-color: #FDFD96;
+                border-radius: 10px;
+                transition: 0.2s;
+                text-decoration: underline;
+            }
+        }
+    }
+}

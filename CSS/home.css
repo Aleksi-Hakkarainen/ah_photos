@@ -1,0 +1,46 @@
+.home-page-container {
+    .text {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: aquamarine;
+        .text-container {
+            margin: 10%;
+            width: 50vh;
+            a {
+                text-decoration: none;
+                color: black;
+                transition: 0.2s;
+                p {
+                    padding: 1%;
+                    transition: 0.2s;
+                }
+            }
+            a:hover {
+                color: rgb(0, 0, 0);
+                p {
+                    background-color: #FDFD96;
+                    border-radius: 10px;
+                    transition: 0.2s;
+                    text-decoration: underline;
+                }
+            }
+            img {
+                width: 15vw;
+                max-width: 250px;
+                min-width: 150px;
+            }
+            .spacer {
+                visibility: hidden;
+            }
+        }
+    }
+    
+    .image {
+        background-image: url("../Media/Pages/Main/IMG_8199.JPG");
+        background-size: cover;
+        height: 100vh;
+    }
+}

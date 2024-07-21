@@ -40,7 +40,12 @@
     }
     
     .image {
-        background-image: url("../Media/Pages/Main/IMG_8199.JPG");
+        background-image: image-set(
+            url("../Media/Pages/Main/IMG_8199.JPG") 1x,
+            url("../Media/Pages/Main/IMG_9303.jpg") 1x,
+            url("../Media/Pages/Main/IMG_9712_01.jpg") 1x
+        );
+        
         background-position-x: 50%;
         background-size: cover;
         height: 100vh;

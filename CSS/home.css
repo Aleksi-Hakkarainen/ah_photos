@@ -41,6 +41,7 @@
                 border: none;
                 border-radius: 10px;
                 color: aquamarine;
+                width: fit-content;
             }
         }
     }

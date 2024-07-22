@@ -23,7 +23,13 @@
                 border-radius: 10px;
                 color: aquamarine;
                 width: fit-content;
-                padding: 1%;
+                padding: 2%;
+                transition: 0.2s;
+            }
+            button:hover {
+                color: #FDFD96;
+                padding: 3%;
+                transition: 0.2s;
             }
         }
     }

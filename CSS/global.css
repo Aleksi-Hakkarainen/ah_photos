@@ -42,21 +42,23 @@ header {
     .navigation {
         width: 100%;
         align-items: center;
-        text-align: center;        
+        text-align: center;
         button {
+            display: inline-flex;
             background-color: black;
             border: none;
             border-radius: 10px;
             color: aquamarine;
             width: fit-content;
-            padding: 1%;
+            margin: 1%;
             border: solid 1px black;
             transition: 0.2s;
         }
         button:hover {
+            display: inline-flex;
             color: #FAC898;
             transition: 0.2s;
-            padding: 1%;
+            margin: 1%;
             background-color: aquamarine;
             border: solid 1px black;
             border-radius: 10px;

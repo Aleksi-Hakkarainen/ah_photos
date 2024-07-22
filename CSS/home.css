@@ -24,6 +24,7 @@
                 color: aquamarine;
                 width: fit-content;
                 padding: 2%;
+                border: solid 1px black;
                 transition: 0.2s;
             }
             button:hover {

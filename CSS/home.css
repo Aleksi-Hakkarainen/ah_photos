@@ -28,8 +28,9 @@
             }
             button:hover {
                 color: #FDFD96;
-                padding: 3%;
                 transition: 0.2s;
+                background-color: aquamarine;
+                border: solid 1px black;
             }
         }
     }

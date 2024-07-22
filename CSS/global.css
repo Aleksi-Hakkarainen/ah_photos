@@ -56,8 +56,8 @@ header {
         a:hover {
             color: #FDFD96;
             transition: 0.2s;
-            text-decoration: underline;
-            padding: 2%;
+            background-color: aquamarine;
+            border: solid 1px black;
         }
         
         ul {

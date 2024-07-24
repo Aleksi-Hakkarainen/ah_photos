@@ -58,10 +58,10 @@
     0% {
         background-image: url("/ah_photos/Media/Pages/home/IMG_8199.JPG");
     }
-    20% {
+    50% {
         background-image: url("/ah_photos/Media/Pages/home/IMG_9303.jpg");
     }
-    40% {
+    100% {
         background-image: url("/ah_photos/Media/Pages/home/IMG_9712_01.jpg");
     }
 }

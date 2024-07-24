@@ -38,7 +38,7 @@
     }
     
     .image {
-        background-image: url("Media/Pages/home/IMG_8199.JPG");        
+        background-image: url("/Media/Pages/home/IMG_8199.JPG");        
         background-position-x: 50%;
         background-size: cover;
         background-position: center;
@@ -56,12 +56,12 @@
 
 @keyframes animate {
     0% {
-        background-image: url("Media/Pages/home/IMG_8199.JPG");
+        background-image: url("/Media/Pages/home/IMG_8199.JPG");
     }
     20% {
-        background-image: url("Media/Pages/home/IMG_9303.jpg");
+        background-image: url("/Media/Pages/home/IMG_9303.jpg");
     }
     40% {
-        background-image: url("Media/Pages/home/IMG_9712_01.jpg");
+        background-image: url("/Media/Pages/home/IMG_9712_01.jpg");
     }
 }

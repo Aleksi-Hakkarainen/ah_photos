@@ -28,9 +28,9 @@
                 transition: 0.2s;
             }
             button:hover {
-                color: #FAC898;
+                color: black;
                 transition: 0.2s;
-                background-color: aquamarine;
+                background-color: white;
                 border: solid 1px black;
                 border-radius: 10px;
             }

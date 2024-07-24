@@ -38,9 +38,30 @@
     }
     
     .image {
-        background-image: url("../Media/Pages/Main/IMG_8199.JPG");        
+        background-image: url("../Media/Pages/home/IMG_8199.JPG");        
         background-position-x: 50%;
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         height: 100vh;
+
+        animation-name: animate;
+        animation-direction: normal;
+        animation-duration: 60s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-image: url("../Media/Pages/home/IMG_8199.JPG");
+    }
+    20% {
+        background-image: url("../Media/Pages/home/IMG_9303.JPG");
+    }
+    40% {
+        background-image: url("../Media/Pages/home/IMG_9712_01.JPG");
     }
 }

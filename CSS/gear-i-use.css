@@ -1,0 +1,16 @@
+.disclaimer {
+    margin: 1%;
+    text-align: center;
+}
+.text-container {
+    .sub-title {
+        text-align: center;
+        margin: 1%;
+    }
+}
+.camera-image {
+    background-image: url("../Media/Pages/gear-i-use/canon_eos_rp.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

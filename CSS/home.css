@@ -56,12 +56,12 @@
 
 @keyframes animate {
     0% {
-        background-image: url("/ah_photos/Media/Pages/home/IMG_8199.JPG");
+        background-image: url("/Media/Pages/home/IMG_8199.JPG");
     }
     50% {
-        background-image: url("/ah_photos/Media/Pages/home/IMG_9303.jpg");
+        background-image: url("/Media/Pages/home/IMG_9303.jpg");
     }
     100% {
-        background-image: url("/ah_photos/Media/Pages/home/IMG_9712_01.jpg");
+        background-image: url("/Media/Pages/home/IMG_9712_01.jpg");
     }
 }

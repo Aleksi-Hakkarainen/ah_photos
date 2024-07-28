@@ -1,5 +1,0 @@
-steps:
-    - name: Checkout the repo
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0 
